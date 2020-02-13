@@ -11,6 +11,7 @@ const newJob = (hardwork) => {
 }
 
 // consuming Job promise 
+
 newJob('24h').then((fullfilled) => {
     console.log(fullfilled);
 })
@@ -34,6 +35,8 @@ const giftCarAfterJob = Job => {
                } )
                 
                .catch(err => console.log(err))
+
+//          
        
 
 

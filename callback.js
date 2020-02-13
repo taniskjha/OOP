@@ -57,14 +57,6 @@ function crush() {
 ex('crazy', crush);
 
 
-function ex(behavior, callback) {
-    if(!behavior) {
-        return callback(`ex is ${behavior}`)
-    }
-}
-
-
-
 
 // Example 3 -
 
